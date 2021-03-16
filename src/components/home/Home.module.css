@@ -1,0 +1,41 @@
+.home {
+  background: #6a3093; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a044ff,
+    #6a3093
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a044ff,
+    #6a3093
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  height: 100vh;
+  padding-top: 100px;
+}
+.home .container {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+.home .container .hello {
+  font-size: 63px;
+}
+.home .container h1 {
+  margin: 0;
+}
+.home .code {
+  height: 24%;
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+}
+.home .globe {
+  height: 70%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
