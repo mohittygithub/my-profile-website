@@ -1,17 +1,23 @@
 import React from "react";
 import PageHeader from "../pageHeader/PageHeader";
 import classes from "./Skills.module.css";
+import codeThinking from "../../images/undraw_Code_thinking_re_gka2.svg";
 
 const Skills = () => {
+  const listTitleStyle = {
+    fontWeight: 900,
+    color: "#9B1FE8",
+    marginBottom: "4px",
+  };
   const frontEndSkills = (
     <ul>
-      <li>FRONTEND</li>
+      <li style={listTitleStyle}>FRONTEND</li>
       <li>ReactJs - Redux - HTML5 - CSS3</li>
     </ul>
   );
   const backEndSkills = (
     <ul>
-      <li>BACKEND</li>
+      <li style={listTitleStyle}>BACKEND</li>
       <li>Java - NodeJS - SQL - MongoDB</li>
       <li>Spring Boot - Express - REST</li>
     </ul>
@@ -19,19 +25,19 @@ const Skills = () => {
 
   const otherSkills = (
     <ul>
-      <li>OTHER</li>
+      <li style={listTitleStyle}>OTHER</li>
       <li>Git - JSON - XML</li>
     </ul>
   );
   const testFrontEndSkills = (
     <ul>
-      <li>FRONTEND</li>
+      <li style={listTitleStyle}>FRONTEND</li>
       <li>ReactJs - Redux - HTML5 - CSS3</li>
     </ul>
   );
   const testBackEndSkills = (
     <ul>
-      <li>BACKEND</li>
+      <li style={listTitleStyle}>BACKEND</li>
       <li>Java - NodeJS - SQL - MongoDB</li>
       <li>Spring Boot - Express - REST</li>
     </ul>
@@ -39,7 +45,7 @@ const Skills = () => {
 
   const testOtherSkills = (
     <ul>
-      <li>OTHER</li>
+      <li style={listTitleStyle}>OTHER</li>
       <li>Git - JSON - XML</li>
     </ul>
   );
@@ -62,6 +68,7 @@ const Skills = () => {
         aliquid quod.
       </p>
       <div className={classes.container}>
+        <img src={codeThinking} alt="code thinking" />
         {totalSkills.map((skill) => {
           return <div className={classes.list}>{skill}</div>;
         })}

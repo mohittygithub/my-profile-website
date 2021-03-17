@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 import Skills from "./components/skills/Skills";
+import Youtube from "./components/youtube/Youtube";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Youtube />
     </div>
   );
 };

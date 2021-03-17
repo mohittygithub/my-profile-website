@@ -1,0 +1,46 @@
+.youtube {
+  background-color: black;
+}
+.youtube .youtubeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.youtube .videos {
+  width: 70%;
+}
+.youtube .paragraph {
+  width: 65%;
+}
+.youtube .videoContainer .text {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+.youtube .videoContainer .thumbnail {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  position: relative;
+}
+.youtube .videoContainer .thumbnail .playButton img {
+  position: absolute;
+  width: 24%;
+  height: 24%;
+  left: 35%;
+  top: 40%;
+  cursor: pointer;
+}
+.youtube .videoContainer .thumbnail img {
+  width: 489px;
+  max-width: 489px;
+  height: 250px;
+}
+
+.youtube .videos .videoContainer {
+  display: flex;
+  background-color: black;
+  margin-bottom: 5%;
+  height: 300px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px white;
+}
