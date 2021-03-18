@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 import Skills from "./components/skills/Skills";
 import Youtube from "./components/youtube/Youtube";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Skills />
       <Youtube />
+      <Contact />
     </div>
   );
 };

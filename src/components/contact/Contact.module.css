@@ -1,0 +1,19 @@
+.contact {
+  background-color: #361e46;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contactIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact .contactIcons svg path {
+  cursor: pointer;
+}
+.contact .email {
+  color: white;
+}

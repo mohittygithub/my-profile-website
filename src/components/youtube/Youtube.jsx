@@ -13,11 +13,11 @@ const Youtube = () => {
   const freeCodeCampUrl =
     "https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw";
   const javaBrainsDesc =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nobis nihil odio facilis obcaecati blanditiis explicabo incidunt odit vel exercitationem, natus consequuntur eius, rerum excepturi quo aliquam nesciunt? Similique, explicabo?";
+    "Java Brains - Kaushik runs this channel. He is one of the best Java experts I discovered on youtube. He has deep knowledge of every aspect of Java and he explains everything thorougly. If anyone is looking forward to make his career in web development using Java (Spring Boot) this channel is one stop shop.";
   const codeEvolutionDesc =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nobis nihil odio facilis obcaecati blanditiis explicabo incidunt odit vel exercitationem, natus consequuntur eius, rerum excepturi quo aliquam nesciunt? Similique, explicabo?";
+    "Code Evolution - Vishwas runs this channel. Again I would give him kudos for his tutorial on React JS. He is best at what he is doing. I learned React JS from his tutorials and I would say, it was so easy while learning with Vishwas's tutorials. Guys he can make you a React expert in no time.";
   const freeCodeCampDesc =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nobis nihil odio facilis obcaecati blanditiis explicabo incidunt odit vel exercitationem, natus consequuntur eius, rerum excepturi quo aliquam nesciunt? Similique, explicabo?";
+    "This is another favorite of mine. You can find any kind of tutorial here according to your needs. A must to be followed channel on youtube";
 
   const playButton = (url) => {
     return (
@@ -48,15 +48,15 @@ const Youtube = () => {
     );
   };
   return (
-    <div className={classes.youtube}>
+    <div className={classes.youtube} id="youtube">
       <PageHeader title={"Youtubers I follow."} />
       <div className={classes.youtubeContent}>
         <div className={classes.paragraph}>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-            autem nostrum dolorum eveniet eaque, earum a laudantium minus!
-            Consequuntur modi facere iusto cum quisquam eveniet nam tempore
-            dolorem minima itaque!
+            These are some youtube channels I follow regularly to sharpen my
+            programming skills. These channels helped me a lot to stand up again
+            on my feet when I started my developer career again after a long
+            gap. Sharing them so more people would get help from them.
           </p>
         </div>
         <div className={classes.videos}>

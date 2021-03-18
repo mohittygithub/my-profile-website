@@ -19,6 +19,9 @@
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.skills .container img {
+  width: 70%;
+}
 
 .skills .container .list {
   flex-basis: 33%;

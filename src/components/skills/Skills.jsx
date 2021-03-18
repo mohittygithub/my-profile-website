@@ -29,37 +29,10 @@ const Skills = () => {
       <li>Git - JSON - XML</li>
     </ul>
   );
-  const testFrontEndSkills = (
-    <ul>
-      <li style={listTitleStyle}>FRONTEND</li>
-      <li>ReactJs - Redux - HTML5 - CSS3</li>
-    </ul>
-  );
-  const testBackEndSkills = (
-    <ul>
-      <li style={listTitleStyle}>BACKEND</li>
-      <li>Java - NodeJS - SQL - MongoDB</li>
-      <li>Spring Boot - Express - REST</li>
-    </ul>
-  );
 
-  const testOtherSkills = (
-    <ul>
-      <li style={listTitleStyle}>OTHER</li>
-      <li>Git - JSON - XML</li>
-    </ul>
-  );
-
-  const totalSkills = [
-    frontEndSkills,
-    backEndSkills,
-    otherSkills,
-    testFrontEndSkills,
-    testBackEndSkills,
-    testOtherSkills,
-  ];
+  const totalSkills = [frontEndSkills, backEndSkills, otherSkills];
   return (
-    <div className={classes.skills}>
+    <div className={classes.skills} id="skills">
       <PageHeader title={"What about the skills?"} />
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi

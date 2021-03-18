@@ -11,16 +11,16 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li>
-              <a href="/">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="/">Youtube</a>
+              <a href="#youtube">Youtube</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
